@@ -25,6 +25,10 @@ or *blocked*, and routes recalculate instantly.
 - "No safe route" detection when everything is cut off
 - Automated tests (`python test_engine.py`)
 
+## Screenshots
+![Route](screenshots/route.png)
+![Blocked road](screenshots/blocked.png)
+
 ## Architecture
 ```
 Streamlit UI (app.py) -> Graph + routing engine (engine.py) <- Simulated Delhi map (data.py)
